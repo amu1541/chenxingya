@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  font-size: .14rem; }
+
+.index {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .index nav {
+    width: 100%;
+    height: 0.72rem;
+    padding: 0.1rem 0.1rem;
+    position: fixed;
+    top: 0rem;
+    z-index: 999; }
+    .index nav div {
+      width: 5.8rem;
+      height: 0.52rem;
+      background: white;
+      border-radius: 0.36rem;
+      overflow: hidden;
+      float: left;
+      padding: 0.1rem 0rem 0.1rem 0.2rem;
+      margin-left: 0.1rem;
+      overflow: hidden; }
+      .index nav div i {
+        width: 0.5rem;
+        height: 0.5rem;
+        float: left; }
+      .index nav div i:nth-child(1) {
+        background: url("../../static/img/icon/jd-sprites.png") 0.06rem 0.1rem no-repeat;
+        background-size: 4rem 4rem; }
+      .index nav div i:nth-child(2) {
+        background: url("../../static/img/icon/jd-sprites.png") -1.58rem 0.1rem no-repeat;
+        background-size: 4rem 4rem; }
+      .index nav div input {
+        padding: 0.1rem 0.1rem 0.1rem 0;
+        font-size: .25rem;
+        border: 0;
+        outline: 0; }
+    .index nav button {
+      float: right;
+      margin: 0.1rem 0.4rem;
+      color: white;
+      font-size: .25rem;
+      background: none;
+      border: 0;
+      outline: 0;
+      line-height: .52rem; }
+  .index .main {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll; }
+    .index .main .floor {
+      background: url(../../static/img/hr/floor.png) no-repeat;
+      background-size: 100% 100%;
+      text-align: center; }
+    .index .main .dd {
+      width: 90%;
+      height: 1px;
+      background: #333333;
+      margin: .5rem 0;
+      margin-left: 5%;
+      position: relative; }
+      .index .main .dd .dp {
+        position: absolute;
+        top: -0.3rem;
+        left: 2.5rem;
+        font-size: .3rem;
+        padding: .1rem .2rem;
+        background: #fff; }
+  .index .foot {
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    border-top: 1px solid #666666;
+    display: flex;
+    justify-content: space-around; }
+
+/*# sourceMappingURL=style.css.map */
